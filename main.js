@@ -85,9 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(checkForMatch, 500)
         }
     }
-    git remote add origin https://github.com/nurolkel/memoryGameJs.git
-    git branch -M main
-    git push -u origin main
+    
     function checkForMatch() {
         const cards = document.querySelectorAll('img')
       
